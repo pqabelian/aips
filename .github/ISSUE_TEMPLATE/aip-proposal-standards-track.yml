@@ -1,0 +1,127 @@
+name: Standards Track of AIP Proposal
+description: Submit a new Standards Track type of Abelian Improvement Proposal (AIP)
+title: "[AIP-ST] <Title of Your Proposal>"
+labels: ["AIP", "proposal", "standards-track"]
+projects: ["pqabelian/aips"]
+assignees:
+  - abelian-dev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this AIP proposal!
+        
+        Standards Track:  
+          - Involves changes to the Abelian network protocol, block format, transaction validation, etc.
+          - Affects Abelian's consensus rules or other technical standards.
+  - type: input
+    id: proposal-title
+    attributes:
+      label: Title of Your Proposal
+      description: Short and descriptive title
+      placeholder: ex. [AIP-0011] add optional data fields
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Names of authors
+      placeholder: ex. Lawrence, John Doe
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Email addresses of authors
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: aip-status
+    attributes:
+      label: Proposal Status
+      description: Status of this proposal
+      options:
+        - Draft (Default)
+        - Proposed
+        - Final
+        - Active
+        - Rejected
+        - Deprecated
+        - Superseded
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: MIT or other approved license
+      placeholder: ex. MIT
+    validations:
+      required: true
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: A short summary (~200 words) explaining the proposal and its purpose.
+      placeholder: It should be clear, concise, and focus on the problem it solves or the feature it introduces.
+      value: "My proposal is:"
+    validations:
+      required: true
+  - type: textarea
+    id: specification
+    attributes:
+      label: Specification
+      description: Provide a detailed technical specification.
+      placeholder: Including the syntax, semantics, and expected behavior of the proposal. The specification should be complete enough to allow for independent implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why the current system is inadequate and how this proposal improves it.
+      placeholder: Describe the real-world problem it addresses and any use cases.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Justify design decisions.
+      placeholder: Discuss alternatives considered, and provide reasoning behind the chosen approach. Address potential objections or trade-offs.
+    validations:
+      required: true
+  - type: textarea
+    id: reference-implementation
+    attributes:
+      label: Reference Implementation (if applicable)
+      description: Provide reference implementation links.
+      placeholder: provide links to the code, test cases, and documentation.
+    validations:
+      required: false
+  - type: textarea
+    id: security-considerations
+    attributes:
+      label: Security Considerations (Optional)
+      description: Discuss potential security risks, attack vectors, and any mitigations necessary for safe deployment.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: I have reviewed existing AIPs to ensure this proposal is unique.
+          required: true
+        - label: I have followed the AIP format and provided all required details.
+          required: true
+        - label: I understand that my submission will be reviewed and discussed before approval.
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Once submitted, maintainers and community members will review the proposal and provide feedback.
