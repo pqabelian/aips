@@ -65,7 +65,7 @@ A proposal can have one of the following statuses:
 ```plaintext
 aips/
 ├── aips/                         # Directory containing all proposals
-│   ├── aip0011_v005.md           # AIP-0011 in MediaWiki format
+│   ├── aip0011_v005.md           # AIP-0011 in Markdown document
 │   └── aip0011_v005.pdf          # AIP-0011 original PDF document
 ├── README.md                     # Overview of the repository
 ├── CONTRIBUTING.md               # Contribution guidelines for AIPs
