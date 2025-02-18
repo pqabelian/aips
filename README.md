@@ -27,7 +27,7 @@ AIPs should provide concise technical specifications and rationale for the propo
 
 3. **Create a Branch from the Issue**:
    - Once the proposal is approved, create a branch from the issue for drafting the AIP.
-   - Use the proposal in [aips/aip0011_v005.md](aips/aip0011/aip0011_v005.md) as a reference for structuring the document. (Or download the [aip0011_v005.pdf](aips/aip0011/aip0011_v005.pdf) document for local reference.)
+   - Use the proposal in [aip0011_v005.md](aips/aip0011/aip0011_v005.md) as a reference for structuring the document. (Or download the [aip0011_v005.pdf](aips/aip0011/aip0011_v005.pdf) document for local reference.)
    - Follow the standard AIP format:
      - Preamble (Metadata such as AIP number, title, authors, etc.)
      - Abstract
@@ -71,8 +71,8 @@ A proposal can have one of the following statuses:
 aips/
 ├── aips/                         # Directory containing all proposals
 │   ├── aips/aip0011/             # Directory of proposals with versions
-│   │  ├── aip0011_v005.md        # AIP-0011 in Markdown document
-│   │  ├── aip0011_v005.pdf       # AIP-0011 original PDF document
+│   │   ├── aip0011_v005.md        # AIP-0011 in Markdown document
+│   │   ├── aip0011_v005.pdf       # AIP-0011 original PDF document
 ├── README.md                     # Overview of the repository
 ├── CONTRIBUTING.md               # Contribution guidelines for AIPs
 └── LICENSE                       # MIT License information for the AIPs
