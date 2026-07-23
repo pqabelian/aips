@@ -65,18 +65,35 @@ A proposal can have one of the following statuses:
 
 ---
 
+## Active AIPs
+
+| AIP | Title | Type | Status | Document |
+|---|---|---|---|---|
+| [AIP 11](aips/aip0011/aip0011_v005.md) | Mnemonic Codes for Generating Deterministic Accounts | Process | Active | [MD](aips/aip0011/aip0011_v005.md) / [PDF](aips/aip0011/aip0011_v005.pdf) |
+| [AIP 12](aips/aip0012/aip0012_v002.md) | Token Release Schedule | Process | Active | [MD](aips/aip0012/aip0012_v002.md) / [PDF](aips/aip0012/aip0012_v002.pdf) |
+| [AIP 15](aips/aip0015/aip0015_v005.md) | Revisit: Mnemonic Codes for Generating Deterministic Accounts | Process | Active | [MD](aips/aip0015/aip0015_v005.md) / [PDF](aips/aip0015/aip0015_v005.pdf) |
+
+---
+
 ## Repository Structure
 
 ```plaintext
 aips/
 ├── aips/                         # Directory containing all proposals
-│   ├── aips/aip0011/             # Directory of proposals with versions
-│   │   ├── aip0011_v005.md        # AIP-0011 in Markdown document
-│   │   ├── aip0011_v005.pdf       # AIP-0011 original PDF document
-├── README.md                     # Overview of the repository
+│   ├── aip0011/                  # AIP-0011 directory
+│   │   ├── aip0011_v005.md        # AIP-0011 Markdown document
+│   │   └── aip0011_v005.pdf       # AIP-0011 PDF document
+│   ├── aip0012/                  # AIP-0012 directory
+│   │   ├── aip0012_v002.md        # AIP-0012 Markdown document
+│   │   └── aip0012_v002.pdf       # AIP-0012 PDF document
+│   └── aip0015/                  # AIP-0015 directory
+│       ├── aip0015_v005.md        # AIP-0015 Markdown document
+│       ├── aip0015_v005.pdf       # AIP-0015 PDF document
+│       └── aip0015_v005.tex       # AIP-0015 LaTeX source
+├── media/                        # Media files (e.g., diagrams, images)
 ├── CONTRIBUTING.md               # Contribution guidelines for AIPs
-└── LICENSE                       # MIT License information for the AIPs
-└── media/                        # Media files (e.g., diagrams, images)
+├── LICENSE                       # MIT License information for the AIPs
+└── README.md                     # Overview of the repository
 ```
 
 ---
